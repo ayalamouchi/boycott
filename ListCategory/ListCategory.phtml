@@ -1,1 +1,14 @@
-LIstCATEGORY
+
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="container text-center">
+        <?php foreach ($res as $val) { ?>
+            <div class="overflow-hidden mb-3">
+                <div class="row gy-5 justify-content-center">
+                    <div class="col-6">
+                        <div class="p-3 bg-light border"><?= $val['nom'] ?></div>
+                    </div>
+                </div>
+            </div>
+        <?php } ?>
+    </div>
+</div>
